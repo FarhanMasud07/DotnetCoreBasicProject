@@ -1,0 +1,204 @@
+﻿@model PRD_High_School.Models.StudentModel
+
+
+@{
+
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<!-- start page content -->
+<div class="page-content-wrapper">
+    <div class="page-content">
+        <div class="page-bar">
+            <div class="page-title-breadcrumb">
+                <div class=" pull-left">
+                    <div class="page-title">Add Fees</div>
+                </div>
+                <ol class="breadcrumb page-breadcrumb pull-right">
+                    <li>
+                        <i class="fa fa-home"></i>&nbsp;<a class="parent-item"
+                                                           href="index.html">Home</a>&nbsp;<i class="fa fa-angle-right"></i>
+                    </li>
+                    <li>
+                        <a class="parent-item" href="#">Edit Old Student</a>&nbsp;<i class="fa fa-angle-right"></i>
+                    </li>
+                    <li class="active">Edit Student</li>
+                </ol>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 col-sm-12">
+                <div class="card card-box">
+                    <div class="card-head">
+                        <header>Edit</header>
+
+                    </div>
+                    <div class="card-body" id="bar-parent">
+                        <form asp-action="EditOldStudentAdmissionFees" id="form_sample_1" class="form-horizontal">
+                            <div asp-validation-summary="ModelOnly"></div>
+                            <input type="hidden" asp-for="Id" />
+                            <div class="form-body">
+                                <div class="form-group row">
+                                    <label class="control-label col-md-3">
+                                        Student ID
+                                        <span class="required"> * </span>
+                                    </label>
+                                    <div class="col-md-5">
+                                        <input type="text" asp-for="StudentId" placeholder="Student Id"
+                                               class="form-control input-height" />
+                                    </div>
+                                    <span asp-validation-for="StudentId" class="text-danger"></span>
+                                </div>
+                                <div class="form-group row">
+                                    <label class="control-label col-md-3">
+                                        Student Name
+                                        <span class="required"> * </span>
+                                    </label>
+                                    <div class="col-md-5">
+                                        <input type="text" asp-for="StudentName" placeholder="StudentName"
+                                               class="form-control input-height" />
+                                    </div>
+                                    <span asp-validation-for="StudentName" class="text-danger"></span>
+                                </div>
+
+
+
+
+
+                                <div class="form-group row">
+                                    <label class="control-label col-md-3">
+                                        Date of Birth
+                                        <span class="required"> * </span>
+                                    </label>
+                                    <div class="col-md-5" id="dp1">
+                                        <input class="form-control input-height" asp-for="DateofBirth" id="date" placeholder="DateofBirth" size="44"
+                                               type="text" readonly>
+                                        <span class="add-on"></span>
+                                    </div>
+                                    <span asp-validation-for="DateofBirth" class="text-danger"></span>
+                                </div>
+
+
+                                <div class="form-group row">
+                                    <label class="control-label col-md-3">
+                                        Class
+                                        <span class="required"> * </span>
+                                    </label>
+                                    <div class="col-md-5">
+                                        <input type="text" asp-for="Class" placeholder="Class"
+                                               class="form-control input-height" />
+                                    </div>
+                                    <span asp-validation-for="Class" class="text-danger"></span>
+                                </div>
+
+                                <div class="form-group row">
+                                    <label class="control-label col-md-3">
+                                        Section
+                                        <span class="required"> * </span>
+                                    </label>
+                                    <div class="col-md-5">
+                                        <input type="text" asp-for="Section" placeholder="Section"
+                                               class="form-control input-height" />
+                                    </div>
+                                    <span asp-validation-for="Section" class="text-danger"></span>
+                                </div>
+
+                                <div class="form-group row">
+                                    <label class="control-label col-md-3">
+                                        Payment Type
+                                        <span class="required"> * </span>
+                                    </label>
+                                    <div class="col-md-5">
+                                        <input type="text" asp-for="PaymentType" placeholder="Payment Type"
+                                               class="form-control input-height" />
+                                    </div>
+                                    <span asp-validation-for="PaymentType" class="text-danger"></span>
+                                </div>
+
+
+                                <div class="form-group row">
+                                    <label class="control-label col-md-3">
+                                        Fixed Price
+                                        <span class="required"> * </span>
+                                    </label>
+                                    <div class="col-md-5">
+                                        <input type="text" asp-for="FixedPrice" placeholder="Fixed Price"
+                                               class="form-control input-height" />
+                                    </div>
+                                    <span asp-validation-for="FixedPrice" class="text-danger"></span>
+                                </div>
+
+                                <div class="form-group row">
+                                    <label class="control-label col-md-3">
+                                        Ammount
+                                        <span class="required"> * </span>
+                                    </label>
+                                    <div class="col-md-5">
+                                        <input asp-for="Ammount" type="text" placeholder="Ammount"
+                                               class="form-control input-height" />
+                                    </div>
+                                    <span asp-validation-for="Ammount" class="text-danger"></span>
+                                </div>
+
+                                <div class="form-group row">
+                                    <label class="control-label col-md-3">
+                                        Status
+                                        <span class="required"> * </span>
+                                    </label>
+                                    <div class="col-md-5">
+                                        <input asp-for="Status" type="text" placeholder="Status"
+                                               class="form-control input-height" />
+                                    </div>
+                                    <span asp-validation-for="Status" class="text-danger"></span>
+                                </div>
+
+
+                                <div class="form-group row">
+                                    <label class="control-label col-md-3">
+                                        Collection Date
+                                        <span class="required"> * </span>
+                                    </label>
+                                    <div class="col-md-5" id="dp1">
+                                        <input class="form-control input-height" asp-for="CollectionDate" id="date1" placeholder="Starting Date" size="44"
+                                               type="text" readonly>
+                                        <span class="add-on"></span>
+                                    </div>
+                                    <span asp-validation-for="CollectionDate" class="text-danger"></span>
+                                </div>
+
+                                <!--
+                                <div class="form-group row">
+                                    <label class="control-label col-md-3">
+                                        Profile Picture
+                                    </label>
+                                    <div class="compose-editor">
+                                        <input type="file" class="default" multiple>
+                                    </div>
+                                </div>
+                                 -->
+
+
+                                <div class="form-actions">
+                                    <div class="row">
+                                        <div class="offset-md-3 col-md-9">
+                                            <button type="submit"
+                                                    class="btn btn-info m-r-20">
+                                                Submit
+                                            </button>
+                                            <a asp-action="ShowOldStudentAdmissionFees" class="btn btn-outline-primary">CANCEL</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+@section Scripts{
+    @{ await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
+
+<!-- end page content -->

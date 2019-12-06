@@ -1,0 +1,285 @@
+﻿@using X.PagedList.Mvc.Core;
+@using X.PagedList;
+@using X.PagedList.Mvc.Common;
+
+@using Microsoft.AspNetCore.Identity;
+
+
+@model IPagedList<PRD_High_School.Models.StudentModel>
+
+@inject SignInManager<IdentityUser> signInManager;
+
+
+@{
+    ViewData["Title"] = "ShowOldStudentAdmissionFees";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+<!-- start page content -->
+<div class="page-content-wrapper">
+    <div class="page-content">
+        <div class="page-bar">
+            <div class="page-title-breadcrumb">
+                <div class=" pull-left">
+                    <div class="page-title">Fees Collection</div>
+                </div>
+
+                <ol class="breadcrumb page-breadcrumb pull-right">
+                    <li>
+                        <i class="fa fa-home"></i>&nbsp;<a class="parent-item"
+                                                           href="index.html">Home</a>&nbsp;<i class="fa fa-angle-right"></i>
+                    </li>
+                    <li>
+                        <a class="parent-item" href="#">Fees</a>&nbsp;<i class="fa fa-angle-right"></i>
+                    </li>
+                    <li>
+                        <a class="parent-item" href="#">Fees Collection</a>&nbsp;
+                    </li>
+                </ol>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="tabbable-line">
+                    <ul class="nav customtab nav-tabs" role="tablist">
+                        <li class="nav-item">
+                            <a href="#tab1" class="nav-link active" data-toggle="tab">
+                                List
+                                View
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#tab2" class="nav-link" data-toggle="tab">
+                                Grid
+                                View
+                            </a>
+                        </li>
+                    </ul>
+
+
+                    <div class="tab-content">
+                        <div class="tab-pane active fontawesome-demo" id="tab1">
+                            <div class="row">
+                                <div class="col-md-12">
+
+
+
+
+                                    <div class="card card-box">
+
+                                        <div class="card-head">
+                                            <header>Fees Collection</header>
+
+
+
+                                        </div>
+
+
+                                        <div class="card-body ">
+                                            <div class="row">
+                                                @if (signInManager.IsSignedIn(User) && User.IsInRole("Admin"))
+                                                {
+                                                    <div class="col-md-6 col-sm-6 col-6">
+                                                        <div class="btn-group">
+                                                            <a asp-action="AddOldStudentAdmissionFees" id="addRow"
+                                                               class="btn btn-info">
+                                                                Add New <i class="fa fa-plus"></i>
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                }
+                                                <div class="col-md-6 col-sm-6 col-6">
+                                                    <div class="btn-group pull-right">
+
+                                                        @using (@Html.BeginForm("ShowOldStudentAdmissionFees", "Admin", FormMethod.Get))
+                                                        {
+                                                            <div class="row">
+                                                                <p>
+                                                                    <b>Search by: </b>@Html.RadioButton("searchBy", "StudentId", true) Student Id
+                                                                    @Html.RadioButton("searchBy", "Section") Section
+                                                                </p>
+                                                                @Html.TextBox("search")
+
+                                                                <input type="submit" class="btn btn-primary" value="Search" />
+
+
+                                                            </div>
+
+                                                                }
+                                                    </div>
+
+                                                </div>
+
+                                            </div>
+
+
+                                            <div class="table-scrollable">
+
+                                                <div id="example4_wrapper" class="dataTables_wrapper container-fluid dt-bootstrap4 no-footer">
+
+
+                                                    <table class="table table-striped table-bordered table-hover table-checkable order-column valign-middle"
+                                                           id="example4">
+                                                        <thead>
+                                                            <tr>
+
+                                                                <th class="center"> Total Admission Due</th>
+                                                                <th class="center"> Total Admission Income</th>
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody>
+
+                                                            @{
+                                                                var total = 0.0;
+                                                                var totaldue = 0.0;
+
+                                                                @foreach (var item in Model)
+                                                                {
+
+                                                                    total += item.Ammount;
+                                                                    totaldue += item.FixedPrice - item.Ammount;
+                                                                }
+
+                                                                <tr class="odd gradeX">
+                                                                    <td class="center">@Html.DisplayFor(modelItem => totaldue)</td>
+                                                                    <td class="center">@Html.DisplayFor(modelItem => total)</td>
+                                                                </tr>
+                                                            }
+
+                                                        </tbody>
+                                                    </table>
+
+                                                    <table class="table table-striped table-bordered table-hover table-checkable order-column valign-middle"
+                                                           id="example4">
+                                                        <thead>
+                                                            <tr>
+                                                                <th class="center"> Section </th>
+                                                                <th class="center">Student ID</th>
+                                                                <th class="center"> Student Name </th>
+                                                                <th class="center"> Date of Birth </th>
+                                                                <th class="center">Colection Date</th>
+                                                                <th class="center"> Payment Type </th>
+                                                                <th class="center"> Fixed Rate </th>
+                                                                <th class="center"> Amount</th>
+                                                                <th class="center"> Due</th>
+                                                                <th class="center"> Status </th>
+
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody>
+
+                                                            @if (Model.Count() == 0)
+                                                            {
+                                                                <tr class="center">
+                                                                    <td colspan="12"> No Result Found </td>
+                                                                </tr>
+                                                            }
+                                                            else
+                                                            {
+                                                                foreach (var item in Model)
+                                                                {
+                                                                    var due = item.FixedPrice - item.Ammount;
+
+                                                                    var status = item.Status;
+
+
+
+                                                                    <tr class="odd gradeX">
+
+                                                                        <td class="center">@Html.DisplayFor(modelItem => item.Section)</td>
+                                                                        <td class="center">@Html.DisplayFor(modelItem => item.StudentId)</td>
+                                                                        <td class="center">@Html.DisplayFor(modelItem => item.StudentName)</td>
+                                                                        <td class="center">@Html.DisplayFor(modelItem => item.DateofBirth)</td>
+                                                                        <td class="center">@Html.DisplayFor(modelItem => item.CollectionDate)</td>
+                                                                        <td class="center">@Html.DisplayFor(modelItem => item.PaymentType)</td>
+                                                                        <td class="center">@Html.DisplayFor(modelItem => item.FixedPrice)</td>
+                                                                        <td class="center">@Html.DisplayFor(modelItem => item.Ammount)</td>
+                                                                        <td class="center">@Html.DisplayFor(modelItem => due)</td>
+
+
+
+                                                                        @if (status == "Paid")
+                                                                        {
+
+                                                                            <td class="center">
+                                                                                <span class="label label-sm label-success">@Html.DisplayFor(modelItem => status)</span>
+                                                                            </td>
+
+                                                                        }
+                                                                        else if (status == "Unpaid")
+                                                                        {
+                                                                            <td class="center">
+                                                                                <span class="label label-sm label-danger">@Html.DisplayFor(modelItem => status)</span>
+                                                                            </td>
+                                                                        }
+                                                                        else
+                                                                        {
+                                                                            <td class="center">
+                                                                                <span class="label label-warning">@Html.DisplayFor(modelItem => status)</span>
+                                                                            </td>
+                                                                        }
+
+                                                                        @if (signInManager.IsSignedIn(User) && User.IsInRole("Admin"))
+                                                                        {
+
+
+                                                                            <td>
+                                                                                <a asp-action="EditOldStudentAdmissionFees" asp-route-id="@item.Id"><i class="fa fa-marker fa-lg"></i></a>
+                                                                            </td>
+
+                                                                            <td>
+                                                                                <a asp-action="Delete" asp-route-id="@item.Id" class="text-danger ml-1"><i class="fa fa-trash-alt fa-lg" onclick="return confirm('Are you sure to delete this record?')"></i></a>
+
+
+                                                                            </td>
+                                                                        }
+
+                                                                    </tr>
+
+                                                                }
+                                                            }
+
+
+
+
+                                                        </tbody>
+
+
+                                                    </table>
+                                                </div>
+                                            </div>
+
+
+                                            <!-- Pagination -->
+                                            <!--End Pagination-->
+
+
+
+
+
+
+                                            <div class="row">
+                                                <div class="col-12 d-flex justify-content-center">
+                                                    @Html.PagedListPager(Model, page => Url.Action("ShowOldStudentAdmissionFees", new { page, searchBy = Context.Request.Query["searchBy"], search = Context.Request.Query["search"]}))
+
+                                                </div>
+                                            </div>
+
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+@section Scripts{
+    @{ await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
+<!-- end page content -->

@@ -1,0 +1,14 @@
+﻿@model RegisterModel
+@{
+    ViewData["Title"] = "ErrorForRegistration";
+    Layout = "~/Views/Shared/_MainPage.cshtml";
+}
+
+    <div class="container">
+        <h1 class="text-danger">@ViewBag.ErrorTitle</h1>
+        <h2 class="text-danger">@ViewBag.ErrorMessage</h2>
+        <p><a asp-Controller="ConfirmEmail" >Confirm it</a></p>
+    </div>
+
+
+

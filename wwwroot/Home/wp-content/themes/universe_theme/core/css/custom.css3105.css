@@ -1,0 +1,10 @@
+.our-campus ul li {
+       margin: 12px 0;
+}
+
+@media (max-width: 581px) {
+.left-event-content img {
+    width: auto;
+	max-width: auto;
+   }
+}

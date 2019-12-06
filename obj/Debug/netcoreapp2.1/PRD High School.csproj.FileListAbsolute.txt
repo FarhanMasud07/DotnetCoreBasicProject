@@ -1,0 +1,99 @@
+C:\Users\fmahi\OneDrive\Desktop\node-tutorial-practice\PRD High School\PRD High School\bin\Debug\netcoreapp2.1\appsettings.Development.json
+C:\Users\fmahi\OneDrive\Desktop\node-tutorial-practice\PRD High School\PRD High School\bin\Debug\netcoreapp2.1\appsettings.json
+C:\Users\fmahi\OneDrive\Desktop\node-tutorial-practice\PRD High School\PRD High School\bin\Debug\netcoreapp2.1\Properties\launchSettings.json
+C:\Users\fmahi\OneDrive\Desktop\node-tutorial-practice\PRD High School\PRD High School\bin\Debug\netcoreapp2.1\PRD High School.deps.json
+C:\Users\fmahi\OneDrive\Desktop\node-tutorial-practice\PRD High School\PRD High School\bin\Debug\netcoreapp2.1\PRD High School.runtimeconfig.json
+C:\Users\fmahi\OneDrive\Desktop\node-tutorial-practice\PRD High School\PRD High School\bin\Debug\netcoreapp2.1\PRD High School.runtimeconfig.dev.json
+C:\Users\fmahi\OneDrive\Desktop\node-tutorial-practice\PRD High School\PRD High School\bin\Debug\netcoreapp2.1\PRD High School.dll
+C:\Users\fmahi\OneDrive\Desktop\node-tutorial-practice\PRD High School\PRD High School\obj\Debug\netcoreapp2.1\PRD High School.csprojAssemblyReference.cache
+C:\Users\fmahi\OneDrive\Desktop\node-tutorial-practice\PRD High School\PRD High School\obj\Debug\netcoreapp2.1\PRD High School.RazorAssemblyInfo.cache
+C:\Users\fmahi\OneDrive\Desktop\node-tutorial-practice\PRD High School\PRD High School\obj\Debug\netcoreapp2.1\PRD High School.RazorAssemblyInfo.cs
+C:\Users\fmahi\OneDrive\Desktop\node-tutorial-practice\PRD High School\PRD High School\obj\Debug\netcoreapp2.1\PRD High School.AssemblyInfoInputs.cache
+C:\Users\fmahi\OneDrive\Desktop\node-tutorial-practice\PRD High School\PRD High School\obj\Debug\netcoreapp2.1\PRD High School.AssemblyInfo.cs
+C:\Users\fmahi\OneDrive\Desktop\node-tutorial-practice\PRD High School\PRD High School\obj\Debug\netcoreapp2.1\PRD High School.TagHelpers.input.cache
+C:\Users\fmahi\OneDrive\Desktop\node-tutorial-practice\PRD High School\PRD High School\obj\Debug\netcoreapp2.1\PRD High School.TagHelpers.output.cache
+C:\Users\fmahi\OneDrive\Desktop\node-tutorial-practice\PRD High School\PRD High School\obj\Debug\netcoreapp2.1\PRD High School.RazorCoreGenerate.cache
+C:\Users\fmahi\OneDrive\Desktop\node-tutorial-practice\PRD High School\PRD High School\obj\Debug\netcoreapp2.1\Razor\Views\Home\About.cshtml.g.cs
+C:\Users\fmahi\OneDrive\Desktop\node-tutorial-practice\PRD High School\PRD High School\obj\Debug\netcoreapp2.1\Razor\Views\Home\Contact.cshtml.g.cs
+C:\Users\fmahi\OneDrive\Desktop\node-tutorial-practice\PRD High School\PRD High School\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\fmahi\OneDrive\Desktop\node-tutorial-practice\PRD High School\PRD High School\obj\Debug\netcoreapp2.1\Razor\Views\Home\Privacy.cshtml.g.cs
+C:\Users\fmahi\OneDrive\Desktop\node-tutorial-practice\PRD High School\PRD High School\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\fmahi\OneDrive\Desktop\node-tutorial-practice\PRD High School\PRD High School\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_CookieConsentPartial.cshtml.g.cs
+C:\Users\fmahi\OneDrive\Desktop\node-tutorial-practice\PRD High School\PRD High School\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\fmahi\OneDrive\Desktop\node-tutorial-practice\PRD High School\PRD High School\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\fmahi\OneDrive\Desktop\node-tutorial-practice\PRD High School\PRD High School\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\fmahi\OneDrive\Desktop\node-tutorial-practice\PRD High School\PRD High School\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\fmahi\OneDrive\Desktop\node-tutorial-practice\PRD High School\PRD High School\obj\Debug\netcoreapp2.1\PRD High School.RazorTargetAssemblyInfo.cache
+C:\Users\fmahi\OneDrive\Desktop\node-tutorial-practice\PRD High School\PRD High School\obj\Debug\netcoreapp2.1\PRD High School.RazorTargetAssemblyInfo.cs
+C:\Users\fmahi\OneDrive\Desktop\node-tutorial-practice\PRD High School\PRD High School\bin\Debug\netcoreapp2.1\PRD High School.pdb
+C:\Users\fmahi\OneDrive\Desktop\node-tutorial-practice\PRD High School\PRD High School\bin\Debug\netcoreapp2.1\PRD High School.Views.dll
+C:\Users\fmahi\OneDrive\Desktop\node-tutorial-practice\PRD High School\PRD High School\bin\Debug\netcoreapp2.1\PRD High School.Views.pdb
+C:\Users\fmahi\OneDrive\Desktop\node-tutorial-practice\PRD High School\PRD High School\obj\Debug\netcoreapp2.1\PRD High School.Views.pdb
+C:\Users\fmahi\OneDrive\Desktop\node-tutorial-practice\PRD High School\PRD High School\obj\Debug\netcoreapp2.1\PRD High School.dll
+C:\Users\fmahi\OneDrive\Desktop\node-tutorial-practice\PRD High School\PRD High School\obj\Debug\netcoreapp2.1\PRD High School.pdb
+C:\Users\fmahi\OneDrive\Desktop\node-tutorial-practice\PRD High School\PRD High School\obj\Debug\netcoreapp2.1\PRD High School.csproj.CopyComplete
+C:\Users\fmahi\OneDrive\Desktop\node-tutorial-practice\PRD High School\PRD High School\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_AdminLayout.cshtml.g.cs
+C:\Users\fmahi\OneDrive\Desktop\node-tutorial-practice\PRD High School\PRD High School\obj\Debug\netcoreapp2.1\Razor\Views\Admin\AddOldStudentAdmissionFees.cshtml.g.cs
+C:\Users\fmahi\OneDrive\Desktop\node-tutorial-practice\PRD High School\PRD High School\obj\Debug\netcoreapp2.1\Razor\Views\Admin\ShowOldStudentAdmissionFees.cshtml.g.cs
+C:\Users\fmahi\OneDrive\Desktop\node-tutorial-practice\PRD High School\PRD High School\obj\Debug\netcoreapp2.1\Razor\Views\Admin\EditOldStudentAdmissionFees.cshtml.g.cs
+C:\Users\fmahi\OneDrive\Desktop\node-tutorial-practice\PRD High School\PRD High School\obj\Debug\netcoreapp2.1\Razor\Views\Account\Register.cshtml.g.cs
+C:\Users\fmahi\OneDrive\Desktop\node-tutorial-practice\PRD High School\PRD High School\obj\Debug\netcoreapp2.1\Razor\Views\Administration\CreateRole.cshtml.g.cs
+C:\Users\fmahi\OneDrive\Desktop\node-tutorial-practice\PRD High School\PRD High School\obj\Debug\netcoreapp2.1\Razor\Views\Administration\ListRoles.cshtml.g.cs
+C:\Users\fmahi\OneDrive\Desktop\node-tutorial-practice\PRD High School\PRD High School\obj\Debug\netcoreapp2.1\Razor\Views\Administration\EditRole.cshtml.g.cs
+C:\Users\fmahi\OneDrive\Desktop\node-tutorial-practice\PRD High School\PRD High School\obj\Debug\netcoreapp2.1\Razor\Views\Administration\EditUserRole.cshtml.g.cs
+C:\Users\fmahi\OneDrive\Desktop\node-tutorial-practice\PRD High School\PRD High School\obj\Debug\netcoreapp2.1\Razor\Views\Account\Login.cshtml.g.cs
+C:\Users\fmahi\OneDrive\Desktop\node-tutorial-practice\PRD High School\PRD High School\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_MainPage.cshtml.g.cs
+C:\Users\fmahi\OneDrive\Desktop\node-tutorial-practice\PRD High School\PRD High School\obj\Debug\netcoreapp2.1\Razor\Views\Home\Home.cshtml.g.cs
+D:\Flutter Udemy Course\node-tutorial-practice\PRD High School\PRD High School\bin\Debug\netcoreapp2.1\appsettings.Development.json
+D:\Flutter Udemy Course\node-tutorial-practice\PRD High School\PRD High School\bin\Debug\netcoreapp2.1\appsettings.json
+D:\Flutter Udemy Course\node-tutorial-practice\PRD High School\PRD High School\bin\Debug\netcoreapp2.1\Properties\launchSettings.json
+D:\Flutter Udemy Course\node-tutorial-practice\PRD High School\PRD High School\bin\Debug\netcoreapp2.1\libman.json
+D:\Flutter Udemy Course\node-tutorial-practice\PRD High School\PRD High School\bin\Debug\netcoreapp2.1\PRD High School.deps.json
+D:\Flutter Udemy Course\node-tutorial-practice\PRD High School\PRD High School\bin\Debug\netcoreapp2.1\PRD High School.runtimeconfig.json
+D:\Flutter Udemy Course\node-tutorial-practice\PRD High School\PRD High School\bin\Debug\netcoreapp2.1\PRD High School.runtimeconfig.dev.json
+D:\Flutter Udemy Course\node-tutorial-practice\PRD High School\PRD High School\bin\Debug\netcoreapp2.1\PRD High School.dll
+D:\Flutter Udemy Course\node-tutorial-practice\PRD High School\PRD High School\bin\Debug\netcoreapp2.1\PRD High School.pdb
+D:\Flutter Udemy Course\node-tutorial-practice\PRD High School\PRD High School\bin\Debug\netcoreapp2.1\PRD High School.Views.dll
+D:\Flutter Udemy Course\node-tutorial-practice\PRD High School\PRD High School\bin\Debug\netcoreapp2.1\PRD High School.Views.pdb
+D:\Flutter Udemy Course\node-tutorial-practice\PRD High School\PRD High School\obj\Debug\netcoreapp2.1\PRD High School.csprojAssemblyReference.cache
+D:\Flutter Udemy Course\node-tutorial-practice\PRD High School\PRD High School\obj\Debug\netcoreapp2.1\PRD High School.RazorAssemblyInfo.cache
+D:\Flutter Udemy Course\node-tutorial-practice\PRD High School\PRD High School\obj\Debug\netcoreapp2.1\PRD High School.RazorAssemblyInfo.cs
+D:\Flutter Udemy Course\node-tutorial-practice\PRD High School\PRD High School\obj\Debug\netcoreapp2.1\PRD High School.AssemblyInfoInputs.cache
+D:\Flutter Udemy Course\node-tutorial-practice\PRD High School\PRD High School\obj\Debug\netcoreapp2.1\PRD High School.AssemblyInfo.cs
+D:\Flutter Udemy Course\node-tutorial-practice\PRD High School\PRD High School\obj\Debug\netcoreapp2.1\PRD High School.TagHelpers.input.cache
+D:\Flutter Udemy Course\node-tutorial-practice\PRD High School\PRD High School\obj\Debug\netcoreapp2.1\PRD High School.TagHelpers.output.cache
+D:\Flutter Udemy Course\node-tutorial-practice\PRD High School\PRD High School\obj\Debug\netcoreapp2.1\PRD High School.RazorCoreGenerate.cache
+D:\Flutter Udemy Course\node-tutorial-practice\PRD High School\PRD High School\obj\Debug\netcoreapp2.1\Razor\Views\Account\Login.cshtml.g.cs
+D:\Flutter Udemy Course\node-tutorial-practice\PRD High School\PRD High School\obj\Debug\netcoreapp2.1\Razor\Views\Administration\CreateRole.cshtml.g.cs
+D:\Flutter Udemy Course\node-tutorial-practice\PRD High School\PRD High School\obj\Debug\netcoreapp2.1\Razor\Views\Administration\EditRole.cshtml.g.cs
+D:\Flutter Udemy Course\node-tutorial-practice\PRD High School\PRD High School\obj\Debug\netcoreapp2.1\Razor\Views\Administration\EditUserRole.cshtml.g.cs
+D:\Flutter Udemy Course\node-tutorial-practice\PRD High School\PRD High School\obj\Debug\netcoreapp2.1\Razor\Views\Administration\ListRoles.cshtml.g.cs
+D:\Flutter Udemy Course\node-tutorial-practice\PRD High School\PRD High School\obj\Debug\netcoreapp2.1\Razor\Views\Admin\AddOldStudentAdmissionFees.cshtml.g.cs
+D:\Flutter Udemy Course\node-tutorial-practice\PRD High School\PRD High School\obj\Debug\netcoreapp2.1\Razor\Views\Admin\EditOldStudentAdmissionFees.cshtml.g.cs
+D:\Flutter Udemy Course\node-tutorial-practice\PRD High School\PRD High School\obj\Debug\netcoreapp2.1\Razor\Views\Admin\ShowOldStudentAdmissionFees.cshtml.g.cs
+D:\Flutter Udemy Course\node-tutorial-practice\PRD High School\PRD High School\obj\Debug\netcoreapp2.1\Razor\Views\Home\About.cshtml.g.cs
+D:\Flutter Udemy Course\node-tutorial-practice\PRD High School\PRD High School\obj\Debug\netcoreapp2.1\Razor\Views\Home\Contact.cshtml.g.cs
+D:\Flutter Udemy Course\node-tutorial-practice\PRD High School\PRD High School\obj\Debug\netcoreapp2.1\Razor\Views\Home\Home.cshtml.g.cs
+D:\Flutter Udemy Course\node-tutorial-practice\PRD High School\PRD High School\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.cshtml.g.cs
+D:\Flutter Udemy Course\node-tutorial-practice\PRD High School\PRD High School\obj\Debug\netcoreapp2.1\Razor\Views\Home\Privacy.cshtml.g.cs
+D:\Flutter Udemy Course\node-tutorial-practice\PRD High School\PRD High School\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Error.cshtml.g.cs
+D:\Flutter Udemy Course\node-tutorial-practice\PRD High School\PRD High School\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_AdminLayout.cshtml.g.cs
+D:\Flutter Udemy Course\node-tutorial-practice\PRD High School\PRD High School\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_CookieConsentPartial.cshtml.g.cs
+D:\Flutter Udemy Course\node-tutorial-practice\PRD High School\PRD High School\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+D:\Flutter Udemy Course\node-tutorial-practice\PRD High School\PRD High School\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_MainPage.cshtml.g.cs
+D:\Flutter Udemy Course\node-tutorial-practice\PRD High School\PRD High School\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+D:\Flutter Udemy Course\node-tutorial-practice\PRD High School\PRD High School\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.cshtml.g.cs
+D:\Flutter Udemy Course\node-tutorial-practice\PRD High School\PRD High School\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.cshtml.g.cs
+D:\Flutter Udemy Course\node-tutorial-practice\PRD High School\PRD High School\obj\Debug\netcoreapp2.1\PRD High School.RazorTargetAssemblyInfo.cache
+D:\Flutter Udemy Course\node-tutorial-practice\PRD High School\PRD High School\obj\Debug\netcoreapp2.1\PRD High School.RazorTargetAssemblyInfo.cs
+D:\Flutter Udemy Course\node-tutorial-practice\PRD High School\PRD High School\obj\Debug\netcoreapp2.1\PRD High School.Views.pdb
+D:\Flutter Udemy Course\node-tutorial-practice\PRD High School\PRD High School\obj\Debug\netcoreapp2.1\PRD High School.dll
+D:\Flutter Udemy Course\node-tutorial-practice\PRD High School\PRD High School\obj\Debug\netcoreapp2.1\PRD High School.pdb
+D:\Flutter Udemy Course\node-tutorial-practice\PRD High School\PRD High School\obj\Debug\netcoreapp2.1\PRD High School.csproj.CopyComplete
+D:\Flutter Udemy Course\node-tutorial-practice\PRD High School\PRD High School\obj\Debug\netcoreapp2.1\Razor\Views\Account\Register.cshtml.g.cs
+D:\Flutter Udemy Course\node-tutorial-practice\PRD High School\PRD High School\bin\Debug\netcoreapp2.1\nlog.config
+D:\Flutter Udemy Course\node-tutorial-practice\PRD High School\PRD High School\obj\Debug\netcoreapp2.1\Razor\Views\Shared\ErrorForRegistration.cshtml.g.cs
+D:\Flutter Udemy Course\node-tutorial-practice\PRD High School\PRD High School\obj\Debug\netcoreapp2.1\Razor\Views\Account\ConfirmEmail.cshtml.g.cs
+D:\Flutter Udemy Course\node-tutorial-practice\PRD High School\PRD High School\obj\Debug\netcoreapp2.1\Razor\Views\Account\NotFound.cshtml.g.cs
+D:\Flutter Udemy Course\node-tutorial-practice\PRD High School\PRD High School\obj\Debug\netcoreapp2.1\Razor\Views\Shared\ErrorConfirm.cshtml.g.cs
+D:\Flutter Udemy Course\node-tutorial-practice\PRD High School\PRD High School\obj\Debug\netcoreapp2.1\Razor\Views\Shared\ErrorLogin.cshtml.g.cs
